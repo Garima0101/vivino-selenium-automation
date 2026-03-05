@@ -1,6 +1,5 @@
-.classpath 
-target/ 
-target/ 
+.classpath
+target/
 test-output/
 .settings/
 
