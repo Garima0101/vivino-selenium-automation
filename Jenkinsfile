@@ -17,7 +17,7 @@ pipeline {
 
         stage('Archive Test Results') {
             steps {
-                junit '**/target/surefire-reports/*.xml'
+                testng '**/test-output/testng-results/*.xml'
             }
         }
     }
